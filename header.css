@@ -1,0 +1,281 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body
+{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+/* ...............................Header style start..................... */
+.header-section
+{
+    background-color:   #2D25A0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+main{
+    background-color: #FFFFFF;
+}
+.container
+{
+    display: flex;
+    
+}
+
+/* .container:hover .text-bar
+{
+    
+} */
+.container:hover .text-bar
+{
+    transform: scale(1.1);
+}
+
+.text-bar
+{
+    padding: 50px;
+    margin-left:  100px;
+    margin-right: 100px;
+    margin-top: 207px;
+    margin-bottom: 240px;
+    
+}
+.container:hover .text-bar
+{
+    background-color: #2D25A0;
+}
+.container:hover .text-bar
+{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out ;
+}
+
+ .text-bar
+{
+    padding: 50px;
+    margin: 100px;
+    color: white;
+} 
+
+/* .container:hover .image-bar {
+    background-color: rgb(63, 8, 63);
+} */
+.container:hover .image-bar
+{
+    transform: scale(1.2);
+    transition: transform 1s  ease-in-out ;
+}
+
+
+.text-bar a{
+    background-color: #E02C6D;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: wheat;
+    padding: 10px;
+}
+.image-bar
+{
+    /* width: 556.01px;
+    height: 438px; */
+    margin-top: 150px;
+    margin-bottom: 80px;
+    margin-left: 140px;
+    margin-left: 200px;
+    font-size: 64px;
+    
+    
+}
+.image-bar img
+{
+    width: 500px;
+    height: 480px;
+    margin-top: 50px;
+   
+}
+/* .........................header style end ................................ */
+
+/* .................... top style grid style start ............................ */
+.players
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    
+    
+    
+}
+.players
+{
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.player
+{
+    /* box-shadow: 10px 10px 10px 10px  #888888; */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: square;
+    padding-left: 10px;
+   
+    
+}
+.player img
+{
+    height: 200px;
+    width: 190px;
+}
+/* anpther part */
+.messi-part
+{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.match-info
+{
+    width: 400px;
+    height: 309px;
+    text-align:left;
+    margin-left: 80px;
+}
+.match-info p
+{
+    text-align: left;
+}
+.match-info a
+{
+    width: 400px;
+    height: 309px;
+    background-color:  #E02C6D;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: wheat;
+    padding: 10px;
+}
+.image-info
+{
+    margin-right: 156px;
+}
+.image-info img
+{
+    width: 500px;
+    height: 400px;
+    
+
+}
+.anchor-button
+{
+    text-decoration: none;
+    background-color: #E66F91;
+    color: white;
+    width: 500px
+    height:200px;
+   padding-left:10px;
+}
+.anchor-button,fas fa-arrow-righ
+{
+    padding: 5px;
+}
+
+/* button a
+{
+    height: 20px;
+    widtwidth
+} */
+fas fa-arrow-right
+{
+    display:static;
+}
+/*  .......................top player style grid style end ..................... */
+
+
+
+/* sponsors start */
+.offcial-sponsor
+{
+    text-align: justify;
+}
+.offcial-sponsor
+{
+    margin-left: 150px;
+}
+.offcial-sponsor h1{
+    background-color: white;
+    
+}
+.partners
+{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    
+}
+/* sponsor end */
+/* latest course start */
+.latest-update
+{
+    text-align: center;
+    
+}
+.enter-mail
+{
+    border: 5px solid rgb(178, 195, 153);
+    border-radius: 10px;
+    font-weight: 700;
+    width: 500px;
+    height: 30px;
+}
+.button-type
+{
+    font-weight: 700;
+    border:5px solid gray;
+    border-radius: 10px;
+}
+/* latest course end */
+ 
+
+/* ................footer style start ..............*/
+/* footer style */
+footer
+{
+    text-align: center;
+}
+.footer-class
+{
+    margin-top: 100px;
+}
+/* .....................footer style  end ..............*/
+/*............ media  queries start .................... */
+/* For mobile devices */
+@media only screen and (max-width:688px)
+{
+    .header-section
+    {
+        
+        
+        width:100%;
+        
+    }
+    .container
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container
+    {
+        flex-direction: column;
+    }
+    .players{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction:column;
+    }
+    
+
+
+
+/*............ media  queries end.................... */
